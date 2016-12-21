@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# usage bin/compile <BUILD_DIR> <CACHE_DIR> <ENV_DIR>
+
+BUILD_DIR=${1:-}
+CACHE_DIR=${2:-}
+ENV_DIR=${3:-}
+HELPER_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
+source  $HELPER_DIR/helpers/install.sh
+install_nodejs 
