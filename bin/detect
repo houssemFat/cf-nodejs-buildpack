@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 if [ -f $1/package.json ]; then
-    echo "Detecting a Gemfile file  !"
-    echo "starting ruby version  !"
+    echo "Detecting a nodejs  package json file  !"
+    echo "Starting downloading nodejs !"
 	exit 0
 else
 	exit 1
