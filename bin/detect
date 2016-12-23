@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
+# bin/detect <build-dir>
 
+BP=$(dirname $(dirname $0))
 if [ -f $1/package.json ]; then
-    echo "Detecting a nodejs  package json file  !"
-    echo "Starting downloading nodejs !"
-	exit 0
-else
-	exit 1
+  echo "node.js `cat $BP/VERSION`"
+  exit 0
 fi
+
+exit 1

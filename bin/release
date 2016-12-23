@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
-cat <<EOF
----
+cat << EOF
 addons: []
 default_process_types:
-  web: bin/node server.js
+  web: npm start
 EOF
