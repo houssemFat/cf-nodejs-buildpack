@@ -6,7 +6,7 @@ The buildpack-packager installtion
 * [Build packer Issue] (https://github.com/cloudfoundry/buildpack-packager/issues/12)
 
 
-#### workaround on windows , use cygwin and run  binary directly, point to your directory 
+#### workaround on windows , use cygwin and run  binary directly, point to your directory
    ` ./../../../../../../Ruby23-x64/bin/buildpack-packager --uncached`
 
 ### On ubuntu using 2.3.3 version
